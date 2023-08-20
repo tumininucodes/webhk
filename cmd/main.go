@@ -18,6 +18,6 @@ func main() {
 		ctx.JSON(http.StatusOK, gin.H{"success": "heher spun here"})
 	})
 
-	server.Run()
+	server.Run(":8080")
 
 }
