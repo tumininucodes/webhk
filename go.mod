@@ -1,6 +1,6 @@
 module webhk
 
-go 1.19
+go 1.0
 
 require (
 	github.com/bytedance/sonic v1.9.1 // indirect
